@@ -1,0 +1,17 @@
+The code here is a slightly modified version of what can be found here:
+github.com:mrehkopf/sd2snes.git and/or there:
+git@github.com:borti4938/Switchless-Mods.git (the later is seems to be gone..)
+
+The story:
+
+I had a working .hex file which I had downloaded from one of the above repos
+about 1 year ago. Recently I wanted to make sure I had the correct source code
+for it.
+
+But when I compiled the source (with the version of gpasm included
+in Debian being 1.4.0) it resulted in a non-functional .hex file.
+The LED would blink, but my game would not run.
+
+So I disassembled the working .hex file to find out how it differed from the version
+I compiled myself, and made the required changes to the source here
+so I would get an identical (and working) binary.
